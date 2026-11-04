@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     color: #222;
     background-color: #fff;
@@ -160,7 +160,7 @@ footer {
     margin-top: 20px;
 }
 
-.lastmodified {
+.last-modified {
     color: #d7e86b;
     font-size: 13px;
 }
