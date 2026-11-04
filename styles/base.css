@@ -16,13 +16,14 @@ header {
 }
 
 
-header h1 {
+span {
+    display: block;
     background-color: #205477;
     color: white;
     text-align: center;
     padding: 25px;
     font-size: 24px;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 nav {
