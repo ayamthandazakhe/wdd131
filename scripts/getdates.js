@@ -1,6 +1,3 @@
-const today = new Date();
-
-document.querySelector("#currentyear").textContent = today.getFullYear();
 
 const lastModified = new Date(document.lastModified);
 
