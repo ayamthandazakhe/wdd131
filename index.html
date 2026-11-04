@@ -7,12 +7,13 @@
     <title>WDD 131 - Dynamic Web Fundamentals - Ayamthanda Zakhe</title>
     <meta name="description" content="My WDD 131 personal website">
     <meta name="author" content="Ayamthanda Zakhe">
-    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
     <header>
-        <span id="course-title">WDD 131: Dynamic Web Fundamentals</span>
+        <h1>WDD 131: Dynamic Web Fundamentals</h1>
         <nav>
             <a href="https://www.linkedin.com/">LinkedIn</a>
             <a href="https://byu.instructure.com/">Canvas</a>
@@ -22,14 +23,15 @@
         </nav>
     </header>
     <main>
-        <h1>Ayamthanda Zakhe</h1>
+        <h2 class="name">Ayamthanda Zakhe</h2>
 
         <div class="content">
 
-            <section class="card">
-                <h2>About Me</h2>
+            <section class="card about">
+                <h3>About Me</h3>
 
                 <div class="about-content">
+
                     <p>
                         My name is Ayamthanda and I go by Aya. I was born and bred in South Africa. I am currently
                         studying Software Development at Brigham Young University. My family is everything to me and I
@@ -39,45 +41,45 @@
                     <img src="images/profile.jpg" alt="picture of Ayamthanda Zakhe">
                 </div>
 
-                <h3>Ilinge, South Africa</h3>
+                <div class="country">
+                    <h4>Ilinge, South Africa</h4>
 
-                <div class="location">
-                    <figure>
-                        <div class="flag">
-                            <img src="images/south-africa-flag.jpg" alt="South African Flag">
-                        </div>
+                    <div class="country-content">
+
+                        <figure>
+                            <img src="images/south-africa-flag.jpg" alt="South African Flag" class="flag-image">
+
+                            <figcaption>Official Flag of South Africa</figcaption>
+                        </figure>
+                        <p>
+                            South Africa is a beautiful country known as the Rainbow Nation, blessed with breathtaking
+                            landscapes, rich cultures, 11
+                            official languages, and incredible diversity. From the stunning Table Mountain and beautiful
+                            beaches
+                            to the wildlife of
+                            the Kruger National Park, our country has so much to offer. We are proud of our history, our
+                            freedom, our Ubuntu spirit,
+                            and the resilience of our people. South Africa is more than just a country; it is a nation
+                            of
+                            strength, talent, unity,
+                            and endless possibilities. 🇿🇦❤️
+                        </p>
+                    </div>
                 </div>
-                <figcaption>Official Flag of South Africa</figcaption>
-                </figure>
-
-                <p>
-                    South Africa is a beautiful country known as the Rainbow Nation, blessed with breathtaking
-                    landscapes, rich cultures, 11
-                    official languages, and incredible diversity. From the stunning Table Mountain and beautiful beaches
-                    to the wildlife of
-                    the Kruger National Park, our country has so much to offer. We are proud of our history, our
-                    freedom, our Ubuntu spirit,
-                    and the resilience of our people. South Africa is more than just a country; it is a nation of
-                    strength, talent, unity,
-                    and endless possibilities. 🇿🇦❤️
-                </p>
-
             </section>
-
             <section class="card resources">
-                <h4>Web Dev Resources</h4>
+                <h3>Web Dev Resources</h3>
 
                 <ul>
                     <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">MDN Web Docs</a></li>
                     <li><a href="https://www.w3schools.com/">W3Schools</a></li>
                     <li><a href="https://css-tricks.com/">CSS-Tricks</a></li>
-                    <li><a
-                            href="https://static.vecteezy.com/system/resources/thumbnails/035/234/223/small_2x/flag-of-south-africa-waving-in-the-wind-isolated-on-a-transparent-background-clipping-path-included-png.png">South
-                            African Flag</a></li>
-                </ul>
+                    <li><a href="https://freecodecamp.org">FreeCodeCamp</a></li>
+                    <li><a href="https://web.dev/learn">Web.dev Learn</a></li>
             </section>
         </div>
     </main>
+
     <footer>
         <p>&copy;<span id="currentyear"></span>
             🌍Ayamthanda Zakhe🌍 South Africa </p>
