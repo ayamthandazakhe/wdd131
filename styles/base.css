@@ -82,16 +82,18 @@ main {
 
 .about-content p {
     flex: 1;
+    min-width: 0;
     line-height: 1.9;
     font-size: 16px;
     margin: 0;
 }
 
 .profile {
-    display: block;
     width: 160px;
     height: 220px;
-    object-fit: cover;
+    object-fit: contain;
+    display: block;
+    object-position: center;
     flex-shrink: 0;
     margin: 0;
 }
