@@ -6,10 +6,6 @@ header span {
     font-size: 1.8 rem;
 }
 
-#menu-button {
-    display: none;
-}
-
 nav {
     display: flex;
     flex-direction: row;
