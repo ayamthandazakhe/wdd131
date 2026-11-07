@@ -25,10 +25,14 @@ header span {
 }
 
 #menu-button {
-    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35px;
+    height: 28px;
+    padding: 0;
     border: none;
-    color: white;
-    font-size: 2rem;
+    background: none;
     cursor: pointer;
 }
 
