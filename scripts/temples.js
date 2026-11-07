@@ -13,7 +13,6 @@ menuButton.addEventListener("click", function () {
         <span></span>
         <span></span>
         <span></span>
-        <span></span>
     `;
         menuButton.setAttribute("aria-label", "Open navigation menu");
     }
