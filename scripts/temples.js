@@ -5,7 +5,7 @@ menuButton.addEventListener("click", function () {
     navigation.classList.toggle("show");
 
     if (navigation.classList.contains("show")) {
-        menuButton.textContent = "❌";
+        menuButton.innerHTML = "❌";
 
         menuButton.setAttribute("aria-label", "Close navigation menu");
     } else {
@@ -19,4 +19,6 @@ menuButton.addEventListener("click", function () {
     }
 });
 
-document.querySelector("#currentyear").textContent = "Last Modified: " + document.lastModified;
+document.querySelector("#currentyear").textContent = new Date().getFullYear();
+
+document.querySelector("#lastModified").textContent = "Last Modified: " + document.lastModified;

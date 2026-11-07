@@ -19,23 +19,23 @@ header {
 }
 
 header h1 {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
 }
 
 #menu-button {
     background: none;
     border: none;
-    color: white;
-    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
     cursor: pointer;
 }
 
 #menuButton span {
     display: block;
-    width: 25px;
-    height: 3px;
-    background-color: black;
-    margin: 4px auto;
+    width: 30px;
+    height: 4px;
+    background-color: white;
 }
 
 nav {
@@ -46,9 +46,13 @@ nav {
 
 }
 
+nav.show {
+    display: flex;
+}
+
 nav a {
     color: white;
-    text-transform: none;
+    text-decoration: none;
     padding: 12px;
 }
 
@@ -62,10 +66,11 @@ main {
     padding: 20px;
 }
 
-h2 {
+h1 {
     text-align: center;
-    margin: 20px 0;
+    margin: 20px auto;
     color: #080d29;
+    width: 100%;
 }
 
 .temple-gallery {
@@ -100,9 +105,49 @@ footer {
     margin-top: 30px;
 }
 
-@media screen and (min-width: 700px) {
-    header {
-        flex-wrap: wrap;
+@media screen and (min-width: 699px) {
+    header span{
+        font-size: 2.2rem;
+    }
+
+    .temple-gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
+header {
+    flex-wrap: wrap;
+}
+
+header span {
+    font-size: 1.8 rem;
+}
+
+#menu-button {
+    display: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: auto
+}
+
+nav a {
+    padding: 10px 20px;
+}
+
+.temple-gallery {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+figure img {
+    height: 250px
+}
+
+@media screen and(min-width: 700px) {
+    header span {
+        font-size: 1.8rem;
     }
 
     #menu-button {
@@ -115,15 +160,7 @@ footer {
         width: auto;
     }
 
-    nav a {
-        padding: 10px 20px;
-    }
-
     .temple-gallery {
         grid-template-columns: repeat(3, 1fr);
-    }
-
-    figure img {
-        height: 250px;
     }
 }
