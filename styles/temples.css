@@ -120,13 +120,13 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     width: 35px;
     height: 28px;
-    padding: 0;
-    background: transparent;
+    background: none;
     border: none;
     cursor: pointer;
-} 
+}
 
 
 #menu-button span {
