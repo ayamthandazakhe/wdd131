@@ -29,8 +29,8 @@ header span {
     flex-direction: column;
     color: white;
     justify-content: space-between;
-    width: 35px;
-    height: 28px;
+    width: 45px;
+    height: 38px;
     padding: 0;
     border: none;
     background: none;
@@ -39,10 +39,10 @@ header span {
 
 #menuButton span {
     display: block;
-    width: 35px;
-    height: 4px;
+    width: 45px;
+    height: 6px;
     background-color: white;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 
 nav {
