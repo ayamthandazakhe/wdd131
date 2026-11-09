@@ -98,9 +98,10 @@ figure img {
 }
 
 figcaption {
-    color: #555;
-    padding: 8px;
-    font-size: 0.9rem;
+    color: #172554;
+    background-color: #ffffff;
+    padding: 10px;
+    font-weight: 600;
 }
 
 footer {
